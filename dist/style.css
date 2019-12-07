@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+body {
+  margin: 0px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#title {
+  height: 80px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+#title span {
+  vertical-align: center;
+  color: red;
+}
+
+#startBTN {
+  font-family: 'Permanent Marker', cursive;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.BTN {
+  font-family: 'Permanent Marker', cursive;
+  height: 35px;
+  float: right;
+  padding-top: 4px;
+}
+
+canvas {
+  background: black;
+  border: gray 5px solid;
+}
